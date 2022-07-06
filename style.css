@@ -14,9 +14,6 @@ body {
     padding: 0px 100px;
     height: 72px;
 }
-.body{
-    padding: 0 100px;
-}
 
 .left-logo {
     font-weight: 700;
@@ -44,9 +41,8 @@ ul {
 .container-body {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    justify-content: space-between;
     align-items: center;
+    flex: 1;
 }
 
 .footer{
@@ -57,6 +53,8 @@ ul {
     justify-content: center;
     height: 72px;
 }
+
+/* SECTION 1 */
 
 .section-1 {
     display: flex;
@@ -86,6 +84,46 @@ ul {
     margin-right: auto;
 }
 
+/*  SECTION 2 */
+
+.title-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: 1;
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.box-text {
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+}
+.box-border{
+    border: 3px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 20px;
+}
+
+
 .section-3 {
     display: flex;
     align-items: center;
@@ -93,5 +131,15 @@ ul {
     width: 100vw;
     height: 200px;
     background-color: #E5E7EB;
+    font-style: italic;
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 200px;
+    background-color: white;
     font-style: italic;
 }
