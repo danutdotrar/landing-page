@@ -35,7 +35,7 @@ a {
     font-size: 14px;
     display: inline-block;
     position: relative;
-    /* color: #0087ca; */
+    padding: 5px;
 }
 
 a:after {
