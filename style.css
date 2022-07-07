@@ -195,6 +195,7 @@ p.text-2 {
 }
 
 .quote {
+    letter-spacing: 1px;
     display: flex;
     font-size: 18px;
     font-style: italic;
